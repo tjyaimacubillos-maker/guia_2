@@ -1,3 +1,7 @@
-int calculate() {
-  return 6 * 7;
+void listarUsuario(List <Map <String,dynamic >> usuarios){
+  for(var usuario in usuarios){
+    print("id: ${usuario["id"]}");
+    print("nombre: ${usuario["nombre"]}");
+    print("celular: ${usuario["celular"]}");
+  }
 }
